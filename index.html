@@ -1,0 +1,228 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="Author" content="André Rodrigues( Xor )">
+        <meta name="Description" content="Kit UI">
+        <title>UI Kit Kanai</title>
+        <!--CSS-->
+        <link href="estilo.css" rel="stylesheet">
+        <!--Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet"><!--/Header-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"><!--/h2 SECTION-->
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet"><!--/P Section-->
+        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet"><!--/Footer-->
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet"><!--/Label-->
+    </head>
+    <body id="home">
+        <div class="topnav" id="myTopnav">
+          <a href="#home">UI Kit Kanai</a>    
+          <a href="#ui">Sobre o UI Kit</a>
+          <a href="#grids">Grids e containers</a>
+          <a href="#contact">Menu</a>
+          <a href="#formDark">Formulário dark</a>
+          <a href="#formClean">Formulário clean</a>    
+          <a href="javascript:void(0);" class="icon toggle" onclick="myFunction()">&#9776;</a>
+        </div>
+        <header class="scrollSuave">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>KANAI</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header><!--/Header-->
+        <section class="scrollSuave" id="ui">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 texto-cento">
+                        <h2>Ponto de partida</h2>
+                        <p>
+                           Este Framework e UI Kit foi criado para aqueles que estão no nível iniciante de Front-end e ainda desconhecem o poder de frameworks que tem um pré processador como Sass, Less e Stylus, nele você pode encontrar Grids, formulários, controle de imagem responsive, menu e alguns botões. Para usar o UI Kit baixe o arquivo CSS no botão abaixo e adicione o seguinte caminho em seu HTML.
+                        </p>                        
+                    </div>
+                    <div class="col-12">
+                        <p class="texto-cento">
+                            <a class="botao red" href="Kanai.rar">Baixar o arquivo</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section><!--/Início-->
+        <section class="grids scrollSuave" id="grids">
+            <div class="container">
+                <div class="row meio">
+                    <div class="col-12 texto-cento">
+                        <h2>Sistema de grids</h2>
+                        <p>
+                            Para tilizar as grids é necessário usar essas classes abaixo.<br>
+                            .col-2, .col-3, .col-4, col-5, .col-6, .col-7, .col-8, .col-10, .col-11, col-12<br>
+                            Veja abaixo um exemplo de estrutura do HTML.                            
+                        </p>
+                        <p>
+                            
+                        </p>
+                       <pre>                           
+                        <section><div class="container"><div class="row"><div class="col-12"></div></div> </div></section>                                
+                       </pre>
+                    </div>                       
+                </div>                
+            </div>
+        </section><!--/Grids-->
+        <section class="grids scrollSuave" id="grids">
+            <div class="container">
+                <div class="row meio">
+                    <div class="col-12 texto-cento">
+                        <h2>Menu</h2>
+                        <p>
+                           Para usar o menu responsivo copie o seguinte código abaixo.                       
+                        </p>
+                        <p>
+                            
+                        </p>
+                       <nav class="topnav" id="myTopnav">
+                          <a href="#home">LOGO</a>    
+                          <a href="#">Link</a>
+                          <a href="#">Link</a>                            
+                          <a href="javascript:void(0);" class="icon toggle" onclick="myFunction()">&#9776;</a>
+                        </nav>    
+                       <pre>                           
+                        <nav class="topnav" id="myTopnav">
+                        <a href="#home">LOGO</a><a href="#">Link</a><a href="#">Link</a>
+                        <a href="javascript:void(0);" class="icon toggle" onclick="myFunction()">&#9776;</a>
+                        </nav>                              
+                       </pre>
+                    </div>                       
+                </div>                
+            </div>
+        </section><!--/menu-->
+        <section class="blueSection scrollSuave" id="formDark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <form>
+                            <h2>Formulário de envio</h2>
+                            <div class="col-12">
+                                <input type="text" placeholder="Nome">
+                            </div>
+                            <div class="col-12">
+                                <input type="email" placeholder="Digite seu e-mail">
+                            </div>
+                            <div class="col-12">
+                                <input type="text" placeholder="Assunto">
+                            </div>
+                            <div class="col-12">
+                                <select>
+                                    <option>Selecionel algo</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" placeholder="Telefone">
+                            </div>
+                            <div class="col-12">
+                                <textarea placeholder="Mensagem" rows="6"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <input class="green" type="submit" value="Enviar">
+                            </div>
+                        </form>
+                    </div><!--/coluna-->
+                    <div class="col-6">
+                        <form> 
+                            <h2>Botões submit dark</h2>
+                            <div class="col-12">
+                                <input class="green" type="submit" value="Enviar">
+                                <label> Botão verde classe = green</label>
+                            </div>
+                            <div class="col-12">
+                                <input class="red" type="submit" value="Enviar">
+                                <label> Botão vermelho classe = red</label>
+                            </div>
+                            <div class="col-12">
+                                <input class="blue" type="submit" value="Enviar">
+                                <label> Botão azul classe = blue</label>
+                            </div>
+                            <div class="col-12">
+                                <input class="orange" type="submit" value="Enviar">
+                                <label> Botão Laranja classe = orange</label>
+                            </div>
+                        </form>
+                    </div><!--/coluna-->
+                </div>
+            </div><!--/form-->
+        </section><!--/dark-->
+        <section class="clean scrollSuave" id="formClean">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <form>
+                            <h2>Formulário de envio</h2>
+                            <div class="col-12">
+                                <input type="text" placeholder="Nome">
+                            </div>
+                            <div class="col-12">
+                                <input type="email" placeholder="Digite seu e-mail">
+                            </div>
+                            <div class="col-12">
+                                <input type="text" placeholder="Assunto">
+                            </div>
+                            <div class="col-12">
+                                <input type="text" placeholder="Telefone">
+                            </div>
+                            <div class="col-12">
+                                <select>
+                                    <option>Selecionel algo</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <textarea placeholder="Mensagem" rows="6"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <input class="green" type="submit" value="Enviar">
+                            </div>
+                        </form>
+                    </div><!--/coluna-->
+                    <div class="col-6">
+                        <form>
+                            <h2>Botões submit cleans</h2>
+                            <div class="col-12">
+                                <input class="green-clean" type="submit" value="Enviar">
+                                <label> Botão verde classe = green</label>
+                            </div>
+                            <div class="col-12">
+                                <input class="red-clean" type="submit" value="Enviar">
+                                <label> Botão vermelho classe = red</label>
+                            </div>
+                            <div class="col-12">
+                                <input class="blue-clean" type="submit" value="Enviar">
+                                <label> Botão azul classe = blue</label>
+                            </div>
+                            <div class="col-12">
+                                <input class="orange-clean" type="submit" value="Enviar">
+                                <label> Botão Laranja classe = orange</label>
+                            </div>
+                        </form>
+                    </div><!--/coluna-->
+                </div>
+            </div><!--/form-->
+        </section><!--/Clean-->
+        <footer>
+            <div class="container">
+                <div class="row meio">
+                    <div class="col-12">
+                        <h5>Desenvolvimento:</h5>
+                        <p>André Rodrigues ( Xor )</p>
+                    </div>
+                </div>
+            </div>
+        </footer><!--/Footer-->
+        <!--Scripts-->
+        <script src="jquery-3.2.0.min.js"></script>
+        <script src="Angular.js"></script><!--/Framework Angular-->
+        <!--Efeitos e validações-->
+        <script src="efeitos.js"></script>        
+    </body>
+</html>
