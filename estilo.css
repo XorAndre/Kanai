@@ -236,6 +236,7 @@ iframe{width: 100%;}
 header{
     background-image: url(header.jpg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-size: 100%;
 }
 header .container{padding: 8rem 0;}
@@ -315,6 +316,7 @@ pre{
   font-size: 1rem;
   margin: 0;
   padding: 1rem 0;
+  width: 100%;    
 }
 
 pre.php::before{
