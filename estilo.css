@@ -234,7 +234,7 @@ iframe{width: 100%;}
 }
 /*header*/
 header{
-    background-image: url(../header.jpg);
+    background-image: url(header.jpg);
     background-attachment: fixed;
     background-size: 100%;
 }
