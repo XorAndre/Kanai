@@ -1,4 +1,4 @@
-function myFunction() {
+unction myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
@@ -14,7 +14,19 @@ jQuery(document).ready(function($) {
             scrollTop: $( $.attr(this, 'href') ).offset().top
         }, 500);
         return false;
-    });
+    });//Efeito Scrolling
+    var calcHeight = function() {
+         $('#preview-frame').height($(window).height());
+         }
+         $(document).ready(function() {
+           calcHeight();
+         }); 
+         $(window).resize(function() {
+           calcHeight();
+         });
+         .load(function() {
+           calcHeight();
+     });
 });    
 /*pre editor*/
 jQuery(document).ready(function($) {
