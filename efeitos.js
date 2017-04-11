@@ -16,6 +16,9 @@ jQuery(document).ready(function($) {
         return false;
     });//Efeito Scrolling    
 });    
+$(document).ready(function () {
+    $("html").niceScroll();
+});//Rolagem suave scroll
 /*pre editor*/
 jQuery(document).ready(function($) {
    $('pre').each(function(index, el){
