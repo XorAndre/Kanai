@@ -25,7 +25,8 @@
           <a href="#formDark">Formulário dark</a>
           <a href="#formClean">Formulário clean</a>    
           <a href="#img">Imagens</a>    
-          <a href="#iframe">Iframes</a>    
+          <a href="#iframe">Iframes</a>
+          <a href="#mod">Modal</a>    
           <a href="javascript:void(0);" class="icon toggle" onclick="myFunction()">&#9776;</a>
         </div>
         <header class="scrollSuave">
@@ -45,12 +46,17 @@
                     <div class="col-12 texto-cento">
                         <h2>Ponto de partida</h2>
                         <p>
-                           Este Framework e UI Kit foi criado para aqueles que estão no nível iniciante de Front-end e ainda desconhecem o poder de frameworks que tem um pré processador como Sass, Less e Stylus, nele você pode encontrar Grids, formulários, controle de imagem responsive, menu e alguns botões. Para usar o UI Kit baixe o arquivo CSS no botão abaixo e adicione o seguinte caminho em seu HTML.
+                           Este Framework e UI Kit foi criado para aqueles que estão no nível iniciante de Front-end e ainda desconhecem o poder de frameworks que tem um pré processador como Sass, Less e Stylus, nele você pode encontrar Grids, formulários, controle de imagem responsive, menu e alguns botões. Para usar o UI Kit baixe os arquivos CSS e JavaScript. Logo abaixo você tem duas opções com e sem pré processador, para iniciantes é comendado usar o arquivo com puro CSS, mas se você já é conhece de pré processadores então fique a vontade para baixar a versão de arquivo com Stylus.
                         </p>                        
                     </div>
                     <div class="col-12">
                         <p class="texto-cento">
-                            <a class="botao red" href="https://github.com/XorAndre/Kanai/blob/master/Kanai.rar">Baixar o arquivo</a>
+                            <a class="botao red" href="https://github.com/XorAndre/Kanai/blob/master/Kanai.rar">Baixar o arquivo sem pré processador</a>
+                        </p>                       
+                    </div>
+                    <div class="col-12">
+                         <p class="texto-cento">
+                            <a class="botao blue" href="https://github.com/XorAndre/Kanai/blob/master/Kanai.rar">Baixar o arquivo com pré processador</a>
                         </p>
                     </div>
                 </div>
@@ -87,7 +93,7 @@
                         <p>
                             
                         </p>
-                       <nav class="topnav" id="myTopnav">
+                       <nav class="menu" id="myTopnav">
                           <a href="#home">LOGO</a>    
                           <a href="#">Link</a>
                           <a href="#">Link</a>                            
@@ -262,6 +268,42 @@
                 </div>                
             </div>
         </section><!--/Iframe-->
+        <section class="scrollSuave" id="mod">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 texto-cento">
+                        <h2>Modal</h2>
+                        <p>
+                          Para usar o modal copie o seguinte código html.
+                        </p>
+                        <pre>                           
+                           <!--
+                           <button class="botao red" id="myBtn">Exemplo modal</button>
+                           <div id="myModal" class="modal">                              
+                              <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>Exemplo Modal</p>
+                                 <img src="sua/imagem.jpg">  
+                              </div>
+                            </div>-->
+                        </pre>
+                    </div>
+                    <div class="col-12">
+                        <p class="texto-cento">
+                            <button class="botao red" id="myBtn">Exemplo modal</button>                            
+                        </p>
+                        <!--div modal-->
+                        <div id="myModal" class="modal">                              
+                          <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Exemplo Modal</p>
+                             <img src="exemplo.jpg">  
+                          </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </section>
         <footer>
             <div class="container">
                 <div class="row meio">
@@ -275,8 +317,7 @@
         <!--Scripts-->
         <script src="jquery-3.2.0.min.js"></script>
         <script src="Angular.js"></script><!--/Framework Angular-->
-        <!--Efeitos e validações-->
-        <script src="http://areaaperta.com/nicescroll/js/jquery.nicescroll.min.js"></script><!--/Plugin Scrolling-->
+        <!--Efeitos e validações-->        
         <script src="efeitos.js"></script>        
     </body>
 </html>
