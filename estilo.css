@@ -97,18 +97,18 @@ li{list-style-type: none;}
 }
 /*Menu*/
 .toggle{font-size:1.08rem;}
-div.topnav {
+div.menu{
   overflow: hidden;
   background-color: #333;
   position: fixed;
   width: 100%;
   z-index: 1;      
 }
-nav.topnav {
+nav.menu {
   overflow: hidden;
   background-color: #333;    
 }
-.topnav a {
+.menu a {
   float: left;
   font-family: 'Poiret One', cursive;       
   display: block;
@@ -118,32 +118,32 @@ nav.topnav {
   text-decoration: none;
   font-size: 0.89rem;
 }
-.topnav a:hover { 
+.menu a:hover { 
   color: crimson;
   transition: 1s;    
 }
-.topnav a:first-child{
+.menu a:first-child{
     background-color: crimson;
     font-size: 1.2rem;    
 }
-.topnav a:first-child:hover{color: #fff;}
-.topnav .icon {
+.menu a:first-child:hover{color: #fff;}
+.menu .icon {
   display: none;
 }
 
 @media(max-width: 43rem) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
+  .menu a:not(:first-child) {display: none;}
+  .menu a.icon {
     float: right;
     display: block;
   }
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
+  .menu.responsive {position: relative;}
+  .menu.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  .topnav.responsive a {
+  .menu.responsive a {
     float: none;
     display: block;
     text-align: left;
