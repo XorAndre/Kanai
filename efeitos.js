@@ -6,7 +6,7 @@ function myFunction() {
         x.className = "topnav";
     }
 }
-/*Efeito Scrolling*/
+//Efeito Scrolling
 jQuery(document).ready(function($) {
     var $doc = $('html, body');
     $('.scrollSuave').click(function() {
