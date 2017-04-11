@@ -101,7 +101,8 @@ div.topnav {
   overflow: hidden;
   background-color: #333;
   position: fixed;
-  width: 100%;    
+  width: 100%;
+  z-index: 1;      
 }
 nav.topnav {
   overflow: hidden;
