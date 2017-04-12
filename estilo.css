@@ -68,7 +68,7 @@ button{
 h1, h2, h3, h4, h5{
     color: rgba(56, 47, 47, 0.81);
 }
-p{font-size: 1.2rem;}
+p{font-size: 1rem;}
 .texto-cento{text-align: center;}
 .text-left{text-align: left;}
 .text-direita{text-align: right;}
@@ -115,7 +115,7 @@ nav.menu {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 1rem 1.1rem;
+  padding: 1rem 0.9rem;
   text-decoration: none;
   font-size: 0.89rem;
 }
@@ -224,6 +224,7 @@ form textarea{
 .blueSection form label{color: aliceblue;}
 /*controle imagens*/
 img{
+    vertical-align: middle;
     display: block;
     width: 100%;
 }
@@ -294,7 +295,26 @@ iframe{width: 100%;}
   text-decoration: none;
   cursor: pointer;
 }
-
+/*mídias*/
+audio, video{   
+    width: 100%;
+}
+/*chat*/
+.chat{
+    background-color: rgba(204, 204, 204, 0.42)!important;
+    width: 100%;
+    height: 60vh;
+    margin-top: 1rem;
+}
+.topo{
+    background-color: #f44336;
+    color: #fff!important;
+}
+@media(min-width: 55rem){
+    .chat{
+        width: 50%;
+    }
+}
 /*********
     Estilos fixos da page
 *****/
@@ -345,17 +365,15 @@ section h2{
     font-size: 2rem;
     margin-left: 3.5%;
 }
-section p{font-family: 'Poiret One', cursive;}
+section p{font-family: 'Poppins', sans-serif;}
 .blueSection h2{color: #fff;}
 .clean h2{color: #2c3e50;}
 section label{    
-    font-family: 'Poiret One', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.80rem;
 }
 @media(min-width: 55rem){
-    section label{
-        font-size: 1.2rem;
-    }
+    section label{font-size: 1rem;}
 }
 /*Footer*/
 footer .container{padding: 2rem 0;}
@@ -368,9 +386,7 @@ footer p{
     font-size: 1.2rem;
 }
 @media(min-width: 55rem){
-    footer{
-        text-align: center;
-    }
+    footer{text-align: center;}
     footer h5{
         font-family: 'Cabin', sans-serif;
         font-size: 1.8rem;
