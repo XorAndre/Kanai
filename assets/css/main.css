@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0;
+}
+* a,
+* a:hover {
+  text-decoration: none;
+}
+* li {
+  list-style-type: none;
+}
+* audio,
+* img,
+* ifrane,
+* video {
+  display: inline-block;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 99%;
+}
+@media (min-width: 48em) {
+  .container {
+    width: 90%;
+  }
+}
