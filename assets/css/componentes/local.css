@@ -57,8 +57,6 @@
 .banner{
     background-image: url(../../imgs/panda_negro.jpg);
     background-repeat: no-repeat;
-    background-position: 10% 74%;
-    background-size: 39%;
     min-height: 88vh;
 }
 .banner h2{
@@ -68,7 +66,17 @@
 .banner .container{
     padding: 4rem 0;
 }
+@media(max-width: 500px){
+    .banner{
+        background-position: 44% -10%;
+        background-size: 52%;
+    }
+}
 @media(min-width: 700px){
+    .banner{
+        background-position: 10% 74%;
+        background-size: 39%;
+    }
     .banner .container{
         padding: 8rem 0;
     }
