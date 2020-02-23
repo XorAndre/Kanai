@@ -1,0 +1,76 @@
+/*Textos*/
+.kt_center{text-align: center;}
+.kt_left{text-align: left;}
+.kt_right{text-align: right;}
+/*Buttons*/
+.bt_kt_verde_gradiente{
+    border-radius: 29px;
+    background: linear-gradient(#37f3ae 0%, #83c5ff 100%);
+}
+/*Main*/
+.main{
+    background-color: var(--black);
+    min-height: 100vh;
+}
+/*Menu*/
+.menu{
+    padding: 10px;
+}
+.menu .container_menu{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu .container_menu .logo{
+    margin-left: 15px;
+    width: 30%;
+}
+.menu .container_menu .logo > h1{
+    color: var(--varde_claro);
+    font-size: 2rem;
+}
+.menu .container_menu .links > li{
+    margin: 0 10px;
+    padding: 7px 10px;
+    text-align: center;
+}
+.menu .container_menu .links > li a{
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 600;
+    padding: .75rem 0;
+    text-decoration: none;
+}
+@media(min-width: 700px){
+   .menu .container_menu .logo{
+        width: 20%;
+   }
+   .menu .container_menu .logo> h1{font-size: 2.5rem;} 
+   .menu .container_menu .links{
+        width: 34%;
+    }
+   .menu .container_menu .links > li{
+        display: inline-block;
+    }    
+}
+/*Banner*/
+.banner{
+    background-image: url(../../imgs/panda_negro.jpg);
+    background-repeat: no-repeat;
+    background-position: 10% 74%;
+    background-size: 39%;
+    min-height: 88vh;
+}
+.banner h2{
+    color: #BACFC8;
+    font-weight: 800;
+}
+.banner .container{
+    padding: 4rem 0;
+}
+@media(min-width: 700px){
+    .banner .container{
+        padding: 8rem 0;
+    }
+    .banner .editor{width: 84%;}
+}
